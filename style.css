@@ -46,7 +46,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: rgb(50, 142, 217);
 }
 
-.cat-bg{
+.gradient-bg{
   background-image: url("images/gradient.jpg");
   background-size: cover;
 }
@@ -73,10 +73,11 @@ a{
   width: 100px;
   padding: 10px 15px;
   margin: 20px auto 0;
+  transition: 0.3s;
 }
 
 .btn:hover{
-  background-color: purple;
+  background-color: rgb(3, 72, 129);
 }
 
 /* LIST */
@@ -102,10 +103,11 @@ a{
   padding: 10px;
   background-color: rgb(50, 142, 217);
   color: white;
+  transition: 0.3s;
 }
 
 .social-btn:hover{
-  background-color: purple;
+  background-color: rgb(3, 72, 129);
 }
 
 /* ASSETS */
