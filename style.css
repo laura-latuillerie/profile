@@ -75,6 +75,10 @@ a{
   margin: 20px auto 0;
 }
 
+.btn:hover{
+  background-color: purple;
+}
+
 /* LIST */
 
 .inline-list{
@@ -97,7 +101,11 @@ a{
 .social-btn{
   padding: 10px;
   background-color: rgb(50, 142, 217);
-    color: white;
+  color: white;
+}
+
+.social-btn:hover{
+  background-color: purple;
 }
 
 /* ASSETS */
