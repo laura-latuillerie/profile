@@ -1,0 +1,121 @@
+/* ALL IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+/* GLOBAL */
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.round-md{
+  border-radius: 10px;
+}
+
+.round-sm{
+  border-radius: 5px;
+}
+
+.circle{
+  border-radius: 50%;
+}
+
+.centered{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.box{
+  padding : 30px 20px;
+  margin: 50px auto;
+  background-color: white;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.blue-bg{
+  background-color: rgb(50, 142, 217);
+}
+
+.cat-bg{
+  background-image: url("images/gradient.jpg");
+  background-size: cover;
+}
+
+/* TEXTS */
+
+h1, h2, h2{
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 2.2em;
+}
+
+/* BUTTONS */
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+  display: block;
+  color : white;
+  width: 100px;
+  padding: 10px 15px;
+  margin: 20px auto 0;
+}
+
+/* LIST */
+
+.inline-list{
+  list-style-type: none;
+  padding-inline-start: 0;
+  
+  text-align: center;
+}
+
+.inline-list li{
+  display: inline;
+  font-size: 1.2em;
+  padding: 20px;
+}
+
+.fa-brands {
+  text-align: center;
+}
+
+.social-btn{
+  padding: 10px;
+  background-color: rgb(50, 142, 217);
+    color: white;
+}
+
+/* ASSETS */
+
+#profile-picture {
+  width: 150px;
+  margin: 20px auto;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 768px) {
+
+  .centered{
+    width: 70%
+  }
+  
+  .box {
+    padding : 30px 70px;
+  }
+}
